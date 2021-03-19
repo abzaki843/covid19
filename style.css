@@ -1,0 +1,328 @@
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.path0 {
+  position: absolute;
+  z-index: -999;
+
+}
+
+
+
+.container {
+  width: 90% !important;
+}
+
+.layer-container {
+  position: relative;
+  height: 100%;
+  max-width: 100%;
+}
+
+.carousel-indicators.active {
+  background-color: blue;
+  width: 48px;
+  height: 48px;
+  margin: 10px;
+}
+
+.path11 {
+  z-index: -999;
+
+
+}
+
+th {
+  position: static;
+}
+
+#facts1 {
+  margin-top: -100px;
+}
+
+.home4 {
+  margin-top: 0px;
+}
+
+
+
+.hero-container {
+  height: auto;
+  width: 100%;
+}
+
+.home1 {
+  margin-top: 50px;
+  margin-bottom: -200px;
+
+}
+
+.smtp {
+  margin-top: 100px;
+}
+
+.Rectangle {
+  z-index: -999;
+  position: absolute;
+}
+
+
+
+.hero-img3 {
+  position: absolute;
+  z-index: -999;
+  margin-left: -10px;
+}
+
+
+
+.logo {
+  max-height: 90%;
+  margin-left: 8%;
+  margin-top: 1%;
+
+}
+
+#home2 {
+  margin-top: 50px;
+  margin-bottom: -400px;
+}
+
+
+.indicator-item {
+  background-color: khaki !important;
+}
+
+.indicator-item.active {
+  background-color: indigo !important;
+}
+
+.smtp-img {
+  margin-top: 100px;
+}
+
+.hero-text {
+  margin-top: 80px;
+
+}
+
+
+
+.hero-img {
+  margin-top: 100px;
+
+}
+
+@media screen and (max-width:600px) {
+  .card-panel {
+    height: 130px;
+    margin-bottom: 50px;
+    margin-top: -10px;
+    width: 150px;
+  }
+
+  .home1 {
+    margin-top: 70px;
+
+  }
+
+
+
+  .hero-img {
+    margin-top: 50px;
+    margin-left: 40px;
+  }
+
+  .hero-text {
+    margin-top: 100px;
+  }
+
+  #global-wise {
+
+    margin-bottom: 70px;
+
+  }
+
+  .cover-img {
+
+    z-index: -999;
+
+
+  }
+
+  #myInput {
+
+
+    width: 70%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid indigo;
+
+  }
+
+  .home4 {
+    margin-top: 80px;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .card-panel {
+    height: 100px;
+    width: 350px;
+    margin-bottom: 50px;
+    margin-top: -200px;
+  }
+
+  #global-wise {
+
+    margin-bottom: 70px;
+
+  }
+
+  #myInput {
+
+
+    width: 80%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid indigo;
+
+  }
+
+
+  #facts {
+    margin: 0 auto;
+  }
+
+  .hero-img {
+    width: 100%;
+    margin-left: 70px;
+  }
+
+  .center {
+    margin-top: 100px;
+  }
+
+  #myths {
+    margin-top: -150px;
+  }
+
+  .hero-container {
+    height: 50%;
+    width: 100%;
+  }
+
+  .hero-img2 {
+    position: absolute;
+    z-index: -999;
+    height: 700px;
+    width: 100%;
+    padding-bottom: 50px;
+    margin-left: -12px;
+  }
+
+  .home4 {
+    margin-top: -138px;
+  }
+
+  .hero-layer {
+    position: absolute;
+    z-index: -999;
+    height: 720px;
+    width: 100%;
+    padding-bottom: 50px;
+    margin-left: -12px;
+  }
+
+  .home3-img {
+    margin-top: 80px;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .card-panel {
+    width: 445px !important;
+    margin-bottom: 50px;
+    margin-top: -200px;
+  }
+
+  #global-wise {
+
+    margin-left: 30px;
+    margin-bottom: 70px;
+
+  }
+
+
+  .hero-layer {
+    position: absolute;
+    z-index: -999;
+
+    max-width: 100%;
+    padding-bottom: 50px;
+    margin-left: -12px;
+  }
+
+  .crona {
+    width: 25%;
+  }
+
+  .home3 {
+    margin-top: 0px;
+  }
+
+  .home2 {
+    margin-top: 50px;
+  }
+
+  .carousel.carousel-slider {
+
+    width: 800px;
+    height: 500px;
+  }
+
+  #home {
+    height: auto;
+    max-width: 100%;
+  }
+
+  .cover-img {
+    position: absolute;
+    z-index: -999;
+
+  }
+
+  #myInput {
+
+
+    width: 80%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid indigo;
+    height: 3%;
+
+  }
+}
+
+.responsive-img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1.h {
+  text-align: center;
+
+  font-size: xx-large;
+}
+
+p.pascal {
+  text-align: center;
+  font-size: xx-large;
+}
+
+.h {
+  text-align: center;
+}
