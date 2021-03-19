@@ -22,12 +22,17 @@ $.ajax({
   success: function (data) {
     console.log(data)
     console.log(data.Global)
+
     $.each(data.Global, function (key, value) {
       console.log(key + ':' + value)
+      if (key == 'Date') {
+        delete Global.Date
+      }
       $('#global-wise').append('<td>' + value + '</td>')
     })
   }
 })
+
 function myFunction () {
   var input, filter, table, tr, td, i, txtValue
   input = document.getElementById('myInput')
