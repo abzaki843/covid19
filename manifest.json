@@ -1,7 +1,7 @@
 {
     "name": "COVID 19",
     "short_name": "Covid 19",
-    "start_url": "/Covid 19.html",
+    "start_url": "/index.html",
     "display": "standalone",
     "background_color": "white",
     "theme_color": "indigo",
@@ -40,7 +40,7 @@
             "src": "/images/icons/icon4.png",
             "type": "image/png",
             "sizes": "192x192",
-            "purpose": "any maskable",
+            "purpose": "any maskable"
         },
         {
             "src": "/images/icons/icon5.png",
