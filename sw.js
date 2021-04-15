@@ -7,10 +7,8 @@ const assets = [
   '/js/ui.js',
   '/js/materialize.min.js',
   '/styles.css',
-
   '/images',
   '/images/icons',
-
   'https://fonts.googleapis.com/icon?family=Material+Icons',
   'https://fonts.gstatic.com/s/materialicons/v47/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2',
   '/fallback.html'
@@ -73,7 +71,7 @@ self.addEventListener('fetch', evt => {
       })
       .catch(() => {
         if (evt.request.url.indexOf('.html') > -1) {
-          return caches.match('/pages/fallback.html')
+          return caches.match('/fallback.html')
         }
       })
   )
