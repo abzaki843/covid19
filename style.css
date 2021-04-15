@@ -7,10 +7,7 @@ body {
 .path0 {
   position: absolute;
   z-index: -999;
-
 }
-
-
 
 .container {
   width: 90% !important;
@@ -31,8 +28,6 @@ body {
 
 .path11 {
   z-index: -999;
-
-
 }
 
 th {
@@ -47,8 +42,6 @@ th {
   margin-top: 0px;
 }
 
-
-
 .hero-container {
   height: auto;
   width: 100%;
@@ -57,7 +50,6 @@ th {
 .home1 {
   margin-top: 50px;
   margin-bottom: -200px;
-
 }
 
 .smtp {
@@ -69,28 +61,22 @@ th {
   position: absolute;
 }
 
-
-
 .hero-img3 {
   position: absolute;
   z-index: -999;
   margin-left: -10px;
 }
 
-
-
 .logo {
   max-height: 90%;
-  margin-left: 8%;
-  margin-top: 0.5%;
 
+  margin-top: 1%;
 }
 
 #home2 {
   margin-top: 50px;
   margin-bottom: -400px;
 }
-
 
 .indicator-item {
   background-color: khaki !important;
@@ -106,17 +92,13 @@ th {
 
 .hero-text {
   margin-top: 80px;
-
 }
-
-
 
 .hero-img {
   margin-top: 100px;
-
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width: 600px) {
   .card-panel {
     height: 130px;
     margin-bottom: 50px;
@@ -126,10 +108,7 @@ th {
 
   .home1 {
     margin-top: 70px;
-
   }
-
-
 
   .hero-img {
     margin-top: 50px;
@@ -141,34 +120,31 @@ th {
   }
 
   #global-wise {
-
     margin-bottom: 70px;
-
   }
 
   .cover-img {
-
     z-index: -999;
-
-
   }
 
   #myInput {
-
-
     width: 70%;
     font-size: 16px;
     padding: 12px 20px 12px 40px;
     border: 1px solid indigo;
-
   }
 
   .home4 {
     margin-top: 80px;
   }
+  .logo {
+    max-height: 70%;
+    margin-top: 2%;
+    margin-left: 3%;
+  }
 }
 
-@media screen and (min-width:992px) {
+@media screen and (min-width: 992px) {
   .card-panel {
     height: 100px;
     width: 350px;
@@ -177,21 +153,15 @@ th {
   }
 
   #global-wise {
-
     margin-bottom: 70px;
-
   }
 
   #myInput {
-
-
     width: 80%;
     font-size: 16px;
     padding: 12px 20px 12px 40px;
     border: 1px solid indigo;
-
   }
-
 
   #facts {
     margin: 0 auto;
@@ -242,7 +212,7 @@ th {
   }
 }
 
-@media screen and (min-width:1200px) {
+@media screen and (min-width: 1200px) {
   .card-panel {
     width: 445px !important;
     margin-bottom: 50px;
@@ -250,12 +220,9 @@ th {
   }
 
   #global-wise {
-
     margin-left: 30px;
     margin-bottom: 70px;
-
   }
-
 
   .hero-layer {
     position: absolute;
@@ -279,7 +246,6 @@ th {
   }
 
   .carousel.carousel-slider {
-
     width: 800px;
     height: 500px;
   }
@@ -292,18 +258,14 @@ th {
   .cover-img {
     position: absolute;
     z-index: -999;
-
   }
 
   #myInput {
-
-
     width: 80%;
     font-size: 16px;
     padding: 12px 20px 12px 40px;
     border: 1px solid indigo;
     height: 3%;
-
   }
 }
 
@@ -325,4 +287,9 @@ p.pascal {
 
 .h {
   text-align: center;
+}
+.logo {
+  max-height: 100%;
+  margin-top: 0.5%;
+  margin-left: 5%;
 }
