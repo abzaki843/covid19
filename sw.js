@@ -6,12 +6,14 @@ const assets = [
   '/js/app.js',
   '/js/ui.js',
   '/js/materialize.min.js',
-  '/css/styles.css',
-  '/css/materialize.min.css',
-  '/images.png',
+  '/styles.css',
+
+  '/images',
+  '/images/icons',
+
   'https://fonts.googleapis.com/icon?family=Material+Icons',
   'https://fonts.gstatic.com/s/materialicons/v47/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2',
-  '/pages/fallback.html'
+  '/fallback.html'
 ]
 
 const limitCacheSize = (name, size) => {
@@ -37,7 +39,7 @@ self.addEventListener('install', evt => {
 
 // activate event
 self.addEventListener('activate', evt => {
-  //console.log('service worker activated');
+  console.log('service worker activated')
   evt.waitUntil(
     caches.keys().then(keys => {
       //console.log(keys);
@@ -52,7 +54,7 @@ self.addEventListener('activate', evt => {
 
 // fetch even
 self.addEventListener('fetch', evt => {
-  //console.log('fetch event', evt);
+  console.log('fetch event', evt)
   evt.respondWith(
     caches
       .match(evt.request)
